@@ -1,0 +1,14 @@
+
+
+main{
+    position: relative;
+}
+
+.new-file{
+    position: absolute;
+    color: white;
+    left: 75%;
+    top: 80px;
+    font-size: 30px;
+    cursor: pointer;
+}
