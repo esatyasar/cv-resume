@@ -15,34 +15,39 @@
 </head>
 
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-2">
-        <div class="container-fluid d-flex justify-content-between navbar-container">
+    <nav class="navbar navbar-expand-md navbar-light" >
+        <div class="container-md navbar-container ">
             <div class="navbar-title">
                 <a class="navbar-brand ms-5" href="./index.html">FARUK YASAR</a>
-               
+
             </div>
-            <div class="d-flex justify-content-end" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-3">
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expended="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav navbar-items">
+                    <li class="nav-item ">
                         <a class="nav-link active fw-bold" aria-current="page" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item ">
                         <a class="nav-link" href="./research.html">Research</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item ">
                         <a class="nav-link" href="./cv.html">CV</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item ">
                         <a class="nav-link" href="./teaching.html">Teaching</a>
                     </li>
-                    <li class="nav-item mx-3">
+                    <li class="nav-item ">
                         <a class="nav-link" href="./references.html">References</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <main class="container mt-5 col-12 ">
         <div class="row d-flex flex-column col-10 m-auto">
 
