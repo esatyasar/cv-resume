@@ -12,3 +12,13 @@ main{
     font-size: 30px;
     cursor: pointer;
 }
+@media screen and (max-width:1000px) {
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+    } 
+    .navbar-title{
+        display: none;
+    }
+ }
+ 
