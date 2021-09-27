@@ -38,7 +38,12 @@
        justify-content: center;
        align-items:center
    } 
-  
+   .header-title{
+    color:transparent
+}
+  .text{
+      margin-top: -2rem;
+  }
 }
 
 
