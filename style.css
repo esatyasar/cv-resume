@@ -7,3 +7,28 @@
     font-size: 0.7rem;
     width: 10rem;
 }
+
+@media screen and (max-width:1400px) {
+   
+    .main-row{
+        justify-content: space-between;
+    }
+}
+
+@media  (min-width: 770px) and (max-width: 1000px) {
+    .main-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:438px) {
+    .profile-img{
+    height: 80%;
+    width: 80%;
+}
+}
+
+
+
+
